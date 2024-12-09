@@ -575,44 +575,336 @@
 //  Switch Case
 
 
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int a,b,result;
+//     cout<<"Please enter both number ";
+//     cin>>a>>b;
+
+//     char op;
+//     cout<<"Please enter operator : ";
+//     cin>>op;
+
+
+//     switch(op){
+//         case '+':
+//                 result = a+b;
+//                 cout<<"Addition : "<<result<<endl;
+//                 break;
+//         case '-':
+//                 result = a-b;
+//                  cout<<"Sub : "<<result<<endl;
+//                 break;
+//         case '*':
+//                 result = a*b;
+//                  cout<<"<Mul> : "<<result<<endl;
+//                 break;
+//         case '/':
+//                 result = a/b;
+//                  cout<<"Div : "<<result<<endl;
+//                 break;
+//         case '%':
+//                 result = a%b;
+//                  cout<<"Rem : "<<result<<endl;
+//                 break;
+//         default :
+//                 cout<<"Please enter Valid Operator!";
+      
+//     }
+
+    
+// }
+
+
+
+// Constant Variable
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//         int a = 10;
+
+//         cout<<a<<endl;
+
+//         a = 20;
+
+//         cout<<a<<endl; 
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//       const  int a = 10;
+
+//         cout<<a<<endl;
+
+//         // a = 20;
+
+//         // cout<<a<<endl; 
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//       const  int a;
+
+// //       cin>>a;   //Not ok
+// //       a=20;   // Not ok
+
+//         cout<<a<<endl;
+
+//         // a = 20;
+
+//         // cout<<a<<endl; 
+// }
+
+
+//Miro
+
+// #include<iostream>
+// using namespace std;
+// #define myvalue "Pawan"
+// int main(){
+//         cout<<myvalue<<endl;    
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         int age;
+
+//         cout<<"Please enter your age!"<<endl;
+
+//         cin>>age;
+
+//         if(age>=18){
+//                 cout<<"You are eligible for Mirjapur3!"<<endl;
+//         }
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         int age;
+
+//         cout<<"Please enter your age!"<<endl;
+
+//         cin>>age;
+
+//         if(age>=18){
+//                 cout<<"You are eligible for Mirjapur3!"<<endl;
+//         }
+//         else{
+//                 cout<<"Sorry bhai, Abhi bada ho ja"<<endl;
+//         }
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         int age;
+
+//         cout<<"Please enter your age!"<<endl;
+
+//         cin>>age;
+
+//         if(age>=18){
+//                 cout<<"You are eligible for Mirjapur3!"<<endl;
+//         }
+//         else if(age>10 && age<18){
+//                 cout<<"Bhai Cartoon movie dekh le!"<<endl;
+//         }
+//         else{
+//                 cout<<"Toye se khelo beta!"<<endl;
+//         }
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         int age;
+
+//         cout<<"Please enter your age!"<<endl;
+
+//         cin>>age;
+
+//         if(age>=18){
+//                 if(age>18 && age<30){
+//                         cout<<"Axe se padhai krna chahiye"<<endl;
+//                 }
+//                 else{
+//                         cout<<"Apne faimly ka dhyan rkho!"<<endl;
+//                 }
+//         }
+//         else if(age>10 && age<18){
+//                 cout<<"Bhai Cartoon movie dekh le!"<<endl;
+//         }
+//         else{
+//                 cout<<"Toye se khelo beta!"<<endl;
+//         }
+// }
+
+
+
+// Loop 
+
+// For loop
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         for(int num = 1; num <= 10; num++){
+//                 cout<<num<<endl;
+//         }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         int num;
+
+//         for(num = 1; num <= 10; num++){
+//                 cout<<num<<endl;
+//         }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         int num = 1;
+
+//         for(; num <= 10; num++){
+//                 cout<<num<<endl;
+//         }
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         int num = 1;
+
+//         for(; num <= 10; ){
+//                 cout<<num<<endl;
+
+//                 num++;
+//         }
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//         for( int num = 10; num >=1; num-- ){
+
+//               cout<<num<<endl;
+               
+//         }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int marks;  // declation
+
+//     cout<<"Enter Your Marks :";  // user ko help krega kya enter krna hai
+
+//     cin>>marks;   // user input
+
+
+//     if(marks >= 90){
+//         cout<<"Eligible for Senior post Job"<<endl;
+//     }
+
+//     else if(marks>=70 && marks<90){
+//         cout<<"Bhai ap jounier post k liye eligible ho!"<<endl;
+//     }  
+//     else{
+//         cout<<"Sorry, You are not eligible!";
+//     }
+ 
+
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//    int num1;
+
+//    cout<<"Enter your num1 : ";
+
+//    cin>>num1;
+
+//    int num2;
+
+//    cout<<"Enter your num2 : ";
+
+//    cin>>num2;
+
+//     (num1>num2) ? cout<<"Num1 is greater!" : cout<<"Num2 is greater!";
+
+ 
+// }
 #include<iostream>
 using namespace std;
 
 int main(){
-    int a,b,result;
-    cout<<"Please enter both number ";
-    cin>>a>>b;
 
-    char op;
-    cout<<"Please enter operator : ";
-    cin>>op;
+   int num1;
 
+   cout<<"Enter your num1 : ";
 
-    switch(op){
-        case '+':
-                result = a+b;
-                cout<<"Addition : "<<result<<endl;
-                break;
-        case '-':
-                result = a-b;
-                 cout<<"Sub : "<<result<<endl;
-                break;
-        case '*':
-                result = a*b;
-                 cout<<"<Mul> : "<<result<<endl;
-                break;
-        case '/':
-                result = a/b;
-                 cout<<"Div : "<<result<<endl;
-                break;
-        case '%':
-                result = a%b;
-                 cout<<"Rem : "<<result<<endl;
-                break;
-        default :
-                cout<<"Please enter Valid Operator!";
-      
-    }
+   cin>>num1;
 
-    
+ 
+
+    (num1 >0 ) ? cout<<"Number is positive number!" : cout<<"Number is negative!";
+
+ 
 }

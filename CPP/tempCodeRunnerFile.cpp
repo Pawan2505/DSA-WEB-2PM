@@ -1,0 +1,1 @@
+ut<<num<<endl;
