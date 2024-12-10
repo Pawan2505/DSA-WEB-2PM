@@ -891,20 +891,77 @@
 
  
 // }
-#include<iostream>
-using namespace std;
 
-int main(){
 
-   int num1;
+// #include<iostream>
+// using namespace std;
 
-   cout<<"Enter your num1 : ";
+// int main(){
 
-   cin>>num1;
+//    int num1;
 
- 
+//    cout<<"Enter your num1 : ";
 
-    (num1 >0 ) ? cout<<"Number is positive number!" : cout<<"Number is negative!";
+//    cin>>num1;
 
  
-}
+
+//     (num1 >0 ) ? cout<<"Number is positive number!" : cout<<"Number is negative!";
+
+ 
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int sum = 0;
+
+//     for(int i = 50; i <=100; i++){
+//         sum = sum + i; 
+//     }
+
+//     cout<<sum<<endl;
+// }
+
+
+//  Self Work 
+// https://docs.google.com/document/d/1qPA8fkQ00KiHyW7L-yK3LgfytwwkyPbdxSIi6L5MHA0/edit?tab=t.0
+// https://docs.google.com/document/d/1elYJ0XEK5WBhFftZy64DY1jAqoIUsdjUi7_b-KcFFEM/edit?tab=t.0
+// https://docs.google.com/document/d/1hVNsAndhj72jxGtONec8GYnJmUsA8fYGg0ypp1dkpic/edit?tab=t.0
+// https://docs.google.com/document/d/1CKCYpVt_fkgKtXxVFa_iWAJN6JI3hB2S4bcK2T-Kjt8/edit?tab=t.0
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int n = 50;
+
+//     for(int i = 1; i <= 50; i++){
+
+//         if(i%3 == 0 && i%5 == 0){
+//             cout<<i<<endl;
+//         }
+//     }
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int multiply = 1;
+
+//     for(int i = 1; i <=5; i++){
+//         multiply = multiply * i; 
+//     }
+
+//     cout<<sum<<endl;
+// }
