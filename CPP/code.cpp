@@ -965,3 +965,248 @@
 
 //     cout<<sum<<endl;
 // }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     //Row -> Outer loop
+//     for(int row = 1; row<=4; row++){
+//         // Column -> Inner Loop
+//         for(int col = 1; col<=4; col++){
+//             cout<<"*";
+//         }
+//         // next row start from next line.
+//         cout<<endl;
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int row,col;
+//     //Row -> Outer loop
+//     for(row = 1; row<=4; row++){
+//         // Column -> Inner Loop
+//         for(col = 1; col<=4; col++){
+//             cout<<"*";
+//         }
+//         // next row start from next line.
+//         cout<<endl;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     for(int row = 1; row<=4; row++){
+
+//         if(row == 1 ||row == 4){
+
+//             cout<<"****"<<endl;
+
+//         }else{
+
+//             cout<<"*  *"<<endl;
+
+//         }
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     for(int row = 1; row<=4; row++){
+
+//        // space 
+
+//        for(int space = 1; space<=4-row; space++){
+//         cout<<" ";
+//        }
+
+//        //star
+
+//        for(int star = 1; star<=4; star++){
+//         cout<<"*";
+//        }
+
+//        cout<<endl;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     //row
+
+//     for(int row = 1; row <= 4; row++){
+
+//         // Column
+
+//         for(int col = 1; col <= 4; col++){
+
+//             if((row==2 || row == 3) && (col == 2 || col == 3)){
+//                 cout<<" ";
+//             }
+//             else{
+//                 cout<<"*";
+//             }
+
+//         }
+        
+//             cout<<endl;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     //row
+
+//     for(int row = 1; row <= 4; row++){
+
+//         // Column
+
+//         for(int col = 1; col <= 4; col++){
+
+//             if((row==2 || row == 3) && (col == 2 || col == 3)){
+//                 cout<<" ";
+//             }
+//             else{
+//                 cout<<"*";
+//             }
+
+//         }
+        
+//             cout<<endl;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     // row
+
+//     for(int row = 1; row <= 4; row++){
+//         //space 
+
+//         for(int space = 1; space <= 4-row; space++){
+//             cout<<" ";
+//         }
+
+//         // Star
+
+//         for(int star = 1; star <= 4; star++){
+//             cout<<"*";
+//         }
+
+//         cout<<endl;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     // row
+
+//     for(int row = 1; row <= 5; row++){
+
+//         // col
+
+//         for(int col = row; col <= 5; col++ ){
+
+//             cout<<col;
+            
+//         }
+
+//         cout<<endl;
+//     }
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     // row
+
+//     int count = 0;
+
+//     for(int row = 1; row <= 5; row++){
+
+//         // col
+
+//         for(int col = 1; col <= 6-row; col++ ){
+
+//             cout<<col + count<<" ";
+            
+//         }
+
+//         count++;
+
+//         cout<<endl;
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     // row
+
+//     int count = 4;
+
+//     for(int row = 1; row <= 5; row++){
+
+
+//         //space 
+
+//         for(int space = 1; space<=count; space++){
+//             cout<<" ";
+//         }
+
+
+//         // col
+
+//         for(int col = 1; col <=row; col++ ){
+
+//             cout<<col + count;
+            
+//         }
+
+//         count--;
+
+//         cout<<endl;
+//     }
+// }
+
+
+
+// https://docs.google.com/document/d/1yi7sNnuRBsViPWU5UKDj9EStYqS4FVFJs7OkVR2ZmUE/edit?tab=t.0
+
+// https://docs.google.com/document/d/1GDvI-zPXKOd0sjcCtGUggCt4T8pTuYoHvGhK6D3P03g/edit?tab=t.0
+
+
