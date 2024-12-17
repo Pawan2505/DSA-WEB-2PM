@@ -1210,3 +1210,120 @@
 // https://docs.google.com/document/d/1GDvI-zPXKOd0sjcCtGUggCt4T8pTuYoHvGhK6D3P03g/edit?tab=t.0
 
 
+
+// https://docs.google.com/document/d/1HNqv4QyNDuKI-NDAhATXfgkRo7r159LXUgRsh4TFRTo/edit?tab=t.0
+
+// https://docs.google.com/document/d/1IEMhGzb_dm7SAGSaSLIeXEjbmMt_qwA-K7N8dib5kPU/edit?tab=t.0
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int arr[5];
+
+//     arr[0] = 10;
+//     arr[1] = 11;
+//     arr[2] = 12;
+//     arr[3] = 13;
+//     arr[4] = 14;
+
+
+//     cout<<arr[0]<<endl;
+//     cout<<arr[1]<<endl;
+//     cout<<arr[2]<<endl;
+//     cout<<arr[3]<<endl;
+//     cout<<arr[4]<<endl;
+    
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int arr[5] = {10,20,30,40,50};
+
+//      cout<<arr[0]<<endl;
+//     cout<<arr[1]<<endl;
+//     cout<<arr[2]<<endl;
+//     cout<<arr[3]<<endl;
+//     cout<<arr[4]<<endl;
+    
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int arr[] = {10,20,30,40,50};
+
+//      cout<<arr[0]<<endl;
+//     cout<<arr[1]<<endl;
+//     cout<<arr[2]<<endl;
+//     cout<<arr[3]<<endl;
+//     cout<<arr[4]<<endl;
+    
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int arr[] = {10,20,30,40,50,60,70};
+
+//      cout<<arr[0]<<endl;
+//     cout<<arr[1]<<endl;
+//     cout<<arr[2]<<endl;
+//     cout<<arr[3]<<endl;
+//     cout<<arr[4]<<endl;
+//     cout<<arr[5]<<endl;
+//     cout<<arr[6]<<endl;
+    
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     // sizeof()
+
+//     cout<<"int size : "<<sizeof(int)<<endl;
+//     cout<<"Float size : "<<sizeof(float)<<endl;
+//     cout<<"Double size : "<<sizeof(double)<<endl;
+// }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int arr[] = {10,20,30,40,50,60,70};
+
+//     // sizeof()
+//     cout<<"Array size : "<<sizeof(arr)<<endl;
+//     cout<<"Array size : "<<sizeof(arr[0])<<endl;
+
+//     int length = sizeof(arr)/sizeof(arr[0]);
+
+//     cout<<"Length of Array : "<<length<<endl;
+
+
+//     for(int i = 0; i < length; i++){
+//         cout<<arr[i]<<" ";
+//     }
+
+//     cout<<"\nArray print using foreach loop"<<endl;
+
+//     for(int element : arr){
+//         cout<<element<<" ";
+//     }
+// }
