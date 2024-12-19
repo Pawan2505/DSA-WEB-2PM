@@ -1327,3 +1327,262 @@
 //         cout<<element<<" ";
 //     }
 // }
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int arr[10] = {10,20,30,40,50,60,70,80,90,100};
+
+//     int find = 90;
+
+//     bool isPresent = false;
+
+//     int temp;
+
+//     for(int i = 0; i < 10; i++){ 
+//         if(arr[i] == find){
+//             temp = i;
+//             isPresent = true;
+//             break;
+//         }
+//     }
+
+//     if(isPresent){
+//         cout<<"Index : "<<temp<<endl;
+//         cout<<"Element is present in the Array!"<<endl;
+//     }else{
+//         cout<<"Element is not present in the Array!"<<endl;
+//     }
+
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int arr[10] = {10,20,30,40,50,60,70,80,90,100};
+
+//     arr[8] = 900;  
+
+//     int find = 90;
+
+//     bool isPresent = false;
+
+//     int temp;
+
+//     for(int i = 0; i < 10; i++){ 
+//         if(arr[i] == find){
+//             temp = i;
+//             isPresent = true;
+//             break;
+//         }
+//     }
+
+//     if(isPresent){
+//         cout<<"Index : "<<temp<<endl;
+//         cout<<"Element is present in the Array!"<<endl;
+//     }else{
+//         cout<<"Element is not present in the Array!"<<endl;
+//     }
+
+// }
+
+
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int arr[12] = {10,20,30,40,50,60,70,80,90,100};
+
+//     int position = 4;
+
+//     int value = 400;
+
+//     for(int i = 11; i>= position; i--){
+//         arr[i] = arr[i-1];
+//         if(i == position){
+         
+//             break;
+//         }
+
+//     }
+//        arr[position] = value;
+
+//     for(int i = 0; i < 11; i++){
+//         cout<<arr[i]<<" ";
+//     }
+
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int arr[5] = {11,22,33,44,55};
+
+//     int position = 3;
+
+//     for(int i = position; i<5; i++){
+//         arr[i] = arr[i+1];
+//     }
+
+//     for(int i = 0; i < 5; i++){
+//         cout<<arr[i]<<" ";
+//     }
+// }
+
+
+
+// #include<iostream>
+// #include<math.h>
+// #include<limits.h>
+// #include<bits/stdc++.h> 
+// using namespace std;
+
+// int main(){
+//     int arr[] = {11,22,3323,44,55,34,4,754,233,767,22};
+
+//     int len = sizeof(arr)/sizeof(arr[0]);
+
+//     cout<<"Length of Array : "<<len<<endl;
+
+//     int min = INT_MAX;
+
+//     for(int i = 0; i < len; i++){
+
+//         if(arr[i] < min){
+//             min = arr[i];
+//         }
+//     }
+
+//     cout<<"Min element in array : "<<min<<endl;
+// }
+
+
+
+// https://docs.google.com/document/d/1vNgR1cMaV6y9Ev7BEfsfzrh3fLxWSNVpSYvNTaA9-DY/edit?tab=t.0
+
+
+
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int row_size = 3;
+//     int col_size = 3;
+
+//     int arr[row_size][col_size];
+
+//     arr[0][0] = 11;
+//     arr[0][1] = 22;
+//     arr[0][2] = 33;
+//     arr[1][0] = 44; 
+//     arr[1][1] = 55;
+//     arr[1][2] = 66;
+//     arr[2][0] = 660;
+//     arr[2][1] = 23;
+//     arr[2][2] = 34;
+
+
+//     cout<<arr[0][0]<<endl;
+//     cout<<arr[0][1]<<endl;
+//     cout<<arr[0][2]<<endl;
+//     cout<<arr[1][0]<<endl;
+//     cout<<arr[1][1]<<endl;
+//     cout<<arr[1][2]<<endl;
+//     cout<<arr[2][0]<<endl;
+//     cout<<arr[2][1]<<endl;
+//     cout<<arr[2][2]<<endl;
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int row_size = 3;
+//     int col_size = 3;
+
+//     int arr[row_size][col_size] = {  {11,22,33},
+//                                     {111,222,333},
+//                                     {22,333,44}
+//                                 };
+
+//     cout<<arr[0][0]<<endl;
+//     cout<<arr[0][1]<<endl;
+//     cout<<arr[0][2]<<endl;
+//     cout<<arr[1][0]<<endl;
+//     cout<<arr[1][1]<<endl;
+//     cout<<arr[1][2]<<endl;
+//     cout<<arr[2][0]<<endl;
+//     cout<<arr[2][1]<<endl;
+//     cout<<arr[2][2]<<endl;
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int row_size = 3;
+//     int col_size = 3;
+
+//     int arr[row_size][col_size] = {  {11,22,33},
+//                                     {111,222,333},
+//                                     {22,333,44}
+//                                 };
+
+
+//         for(int row = 0; row < row_size; row++){
+//             for(int col = 0; col < col_size; col++){
+//                 cout<<arr[row][col]<<" ";
+//             }
+//             cout<<endl;
+//         }
+// }
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int row_size = 3;
+    int col_size = 3;
+
+    int arr[row_size][col_size];
+
+// Input
+
+   for(int row = 0; row < row_size; row++){
+            for(int col = 0; col < col_size; col++){
+               cout<<"Please enter element at : "<<row<<" row and  "<<col<<" col : ";
+               cin>>arr[row][col];
+            }
+            cout<<endl;
+        }
+
+
+// Output
+
+        for(int row = 0; row < row_size; row++){
+            for(int col = 0; col < col_size; col++){
+                cout<<arr[row][col]<<" ";
+            }
+            cout<<endl;
+        }
+}
