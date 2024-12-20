@@ -1556,33 +1556,138 @@
 //         }
 // }
 
+
+
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+
+//     int row_size = 3;
+//     int col_size = 3;
+
+//     int arr[row_size][col_size];
+
+// // Input
+
+//    for(int row = 0; row < row_size; row++){
+//             for(int col = 0; col < col_size; col++){
+//                cout<<"Please enter element at : "<<row<<" row and  "<<col<<" col : ";
+//                cin>>arr[row][col];
+//             }
+//             cout<<endl;
+//         }
+
+
+// // Output
+
+//         for(int row = 0; row < row_size; row++){
+//             for(int col = 0; col < col_size; col++){
+//                 cout<<arr[row][col]<<" ";
+//             }
+//             cout<<endl;
+//         }
+// }
+
+
+// Take nothing and return nothing
+
+// #include<iostream>
+// using namespace std;
+
+// int fun(){
+
+//     cout<<"Function called.."<<endl;
+// }
+
+// int main(){
+
+// fun();
+
+// }
+
+
+// Take something and return nothing
+
+// #include<iostream>
+// using namespace std;
+
+// void addition(int x, int y){
+
+//     cout<<"X : "<<x<<endl;
+
+//     cout<<"Y : "<<y<<endl;
+
+//     int result = x+y;
+//     cout<<"Result : "<<result<<endl;
+// }
+
+// int main(){
+
+//     int a = 10;
+//     int b = 20;
+
+// addition(a,b);
+
+// }
+
+
+// Take something and return something
+
+// #include<iostream>
+// using namespace std;
+
+// int addition(int x, int y){
+
+//     cout<<"X : "<<x<<endl;
+
+//     cout<<"Y : "<<y<<endl;
+
+//     int result = x+y;
+ 
+//         return result;
+// }
+
+// int main(){
+
+//     int a = 10;
+//     int b = 20;
+
+// int result = addition(a,b);
+
+// cout<<"Result : "<<result<<endl;
+
+// }
+
+// Take nothing and return something
+
+
 #include<iostream>
 using namespace std;
 
+int addition(){
+
+   int x = 10;
+   int y = 20;
+
+    int result = x+y;
+ 
+        return result;
+}
+
 int main(){
 
-    int row_size = 3;
-    int col_size = 3;
-
-    int arr[row_size][col_size];
-
-// Input
-
-   for(int row = 0; row < row_size; row++){
-            for(int col = 0; col < col_size; col++){
-               cout<<"Please enter element at : "<<row<<" row and  "<<col<<" col : ";
-               cin>>arr[row][col];
-            }
-            cout<<endl;
-        }
 
 
-// Output
+int result = addition();
 
-        for(int row = 0; row < row_size; row++){
-            for(int col = 0; col < col_size; col++){
-                cout<<arr[row][col]<<" ";
-            }
-            cout<<endl;
-        }
+cout<<"Result : "<<result<<endl;
+
 }
+
+
+// Topic : 
+
+// https://docs.google.com/document/d/16-5lbsi0Kb2OWvmxQ3Wlrt5uYlSE5Fy8IuuD1fVrHc0/edit?tab=t.0
+// https://docs.google.com/document/d/1msf1GljNba4EmFIgwj0c3maywNbXo4czXVVuPrgZjFQ/edit?tab=t.0
+// https://docs.google.com/document/d/12UzMEp_w0DqWyMAjm5ozko5NvQiWxe6Vm5lNbZoeuoc/edit?tab=t.0
